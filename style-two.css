@@ -1,64 +1,51 @@
+.worldcup-match {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
 
-.player-info {
-    width: 320px;
-    height: 375px;
-    box-shadow: 1px 1px 1px 1px #E8E8E8;
-    border-radius: 10px;
-    margin-right: 80px;
-}
-
-.transfer {
-    width: 321px;
-    height: 175px;
-}
-
-.transfer-button {
-    border: 1px solid black;
-    text-align: center;
-    padding-top: 5px;
+.match-detail {
+    width: 312px;
+    height: 242px;
     border-radius: 5px;
-    height: 40px;
-    width: 120px;
-    font-size: 20px;
-    font-weight: 300;
-    margin-left: 15px;
+    box-shadow: 1px 1px 1px 1px #E8E8E8;
 }
 
-.icon-site {
-    display: flex;
-
-}
-
-.chat-icon {
+.team-name {
+    font-size: 17px;
     display: flex;
     justify-content: space-between;
-    margin-left: 25px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.flag {
+    margin-top: 35px;
+    width: 93.04px;
+    height: 54.42px;
+}
+
+.match-time {
     color: gray;
+    text-align: center;
 }
 
-.transfer-detail {
-    margin-left: 15px;
+.vs {
+    margin-top: 40px;
 }
 
-.time-icon {
-    color: gray;
-    margin-left: 20px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.blog-container {
-    display: flex;
-    justify-content: center;
+main {
     display: grid;
-    grid-template-columns: 312px 312px 312px 312px;
-    gap: 25px;
-    margin-top: 800px;
-    margin-left: 20px;
-
+    grid-template-columns: 312px 312px 312px;
+    gap: 30px;
 }
 
 .match-info {
@@ -79,7 +66,7 @@ body {
     font-size: 16px;
     line-height: 30px;
     border-radius: 10px;
-    /* margin-right: 150px; */
+    margin-right: 150px;
 }
 
 .blog-button {
@@ -100,7 +87,7 @@ body {
     height: 646px;
     left: 140px;
     top: 50px;
-    margin-left: 100px;
+    margin-left: 120px;
     border-radius: 20px;
 }
 
@@ -161,14 +148,14 @@ body {
     margin-right: 200px;
 }
 
-.fa-clock-rotate-left {
-    margin-top: 5px;
-    margin-right: 10px;
-}
-
-.fa-comment-dots {
-    margin-top: 5px;
-    margin-right: 10px;
+.blog-site {
+    padding-right: 200px;
+    margin-right: 150px;
+    margin-right: 200px;
+    margin-top: 750px;
+    display: grid;
+    grid-template-columns: 312px 312px 312px 312px;
+    gap: 30px
 }
 
 .goal {
@@ -177,7 +164,7 @@ body {
     background-color: black;
     width: 100%;
     height: 250px;
-    margin-top: 100px;
+    margin-top: 200px;
     padding-top: 150px;
 }
 
@@ -219,19 +206,7 @@ hr {
     margin-top: 15px;
 }
 
-.view-all {
-    visibility: hidden;
-    margin-left: 50%;
-    margin-top: 50px;
-}
-
-.upcoming-match {
-    color: black;
+.blog {
     text-decoration: none;
-}
-
-@media only screen and (min-width:688px) and (max-width:992px) {
-    .view-all {
-        visibility: visible;
-    }
+    color: black;
 }
